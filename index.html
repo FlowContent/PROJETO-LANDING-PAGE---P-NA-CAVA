@@ -32,6 +32,17 @@
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Han+Sans&family=Inter:wght@400;600;700&family=Permanent+Marker&display=swap"
     rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" id="faviconcima">
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("button, a").forEach(function(element) {
+        element.addEventListener("click", function() {
+            fbq('track', 'Lead');
+        });
+    });
+});
+</script>
+
   <style>
     *,
     *::before,
