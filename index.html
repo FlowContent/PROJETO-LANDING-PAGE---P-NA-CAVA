@@ -335,19 +335,6 @@ document.addEventListener("DOMContentLoaded", function () {
       font-size: 1.02rem;
     }
 
-    /* ─── STATS BAR ─── */
-    .stats-bar {
-      background: var(--orange);
-      padding: 1.2rem 1rem;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-
-    .stats-bar-inner {
-      display: flex;
-      gap: 3rem;
-      animation: marquee 20s linear infinite;
-    }
 
     @keyframes marquee {
       from {
@@ -580,14 +567,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .como-funciona-cta {
       text-align: center;
       margin-top: 3rem;
-    }
-
-    /* ─── COUNTDOWN CTA ─── */
-    .countdown-cta {
-      margin-top: 3.5rem;
-      background: var(--orange-light);
-      padding: 5em;
-      text-align: center;
     }
 
     .countdown-badge {
@@ -1115,24 +1094,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </section>
 
-  <!-- STATS MARQUEE -->
-  <div class="stats-bar" aria-hidden="true">
-    <div class="stats-bar-inner" id="marqueeInner">
-      <div class="stat-item"><span><img src="alpinestars.png" alt="" id="alpinestars"></span> GRUPO GRATUITO DE
-        PROMOÇÕES</div>
-      <div class="stat-item"><span><img src="airoh.png" alt=""></span> CUPOM FRETE GRÁTIS SEMPRE!</div>
-      <div class="stat-item"><span><img src="asw.png" alt=""></span> CUPONS EXCLUSIVOS DIÁRIOS</div>
-      <div class="stat-item"><span><img src="borilli.png" alt=""></span> 40% OFF EM PNEUS</div>
-      <div class="stat-item"><span><img src="fox.png" alt=""></span> EQUIPAMENTOS COM 30% OFF</div>
-      <!-- Duplicated for seamless loop -->
-      <div class="stat-item"><span><img src="alpinestars.png" alt=""></span> GRUPO GRATUITO DE PROMOÇÕES</div>
-      <div class="stat-item"><span><img src="airoh.png" alt=""></span> CUPOM FRENTE GRÁTIS SEMPRE!</div>
-      <div class="stat-item"><span><img src="asw.png" alt=""></span> CUPONS EXCLUSIVOS DIÁRIOS</div>
-      <div class="stat-item"><span><img src="borilli.png" alt=""></span> 40% OFF EM PNEUS</div>
-      <div class="stat-item"><span><img src="fox.png" alt=""></span> EQUIPAMENTOS COM 30% OFF</div>
-    </div>
-  </div>
-
   <!-- MUD DIVIDER -->
   <div class="mud-divider">
     <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -1214,47 +1175,6 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- MUD DIVIDER 3 -->
-  <div class="mud-divider" style="background:#0D0D0D;">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,45 C180,20 360,65 540,40 C720,15 900,60 1080,38 C1260,16 1380,52 1440,40 L1440,80 L0,80 Z"
-        fill="#1A1A1A" />
-    </svg>
-  </div>
-
-  <div class="countdown-cta">
-    <span class="countdown-badge">▲ OFERTAS POR TEMPO LIMITADO</span>
-    <h3 class="countdown-title">AS PROMOÇÕES DESTA SEMANA FECHAM EM:</h3>
-
-    <div class="countdown-timer">
-      <div class="countdown-box">
-        <span class="countdown-num" id="cd-days">00</span>
-        <span class="countdown-label">DIAS</span>
-      </div>
-      <span class="countdown-sep">:</span>
-      <div class="countdown-box">
-        <span class="countdown-num" id="cd-hours">00</span>
-        <span class="countdown-label">HORAS</span>
-      </div>
-      <span class="countdown-sep">:</span>
-      <div class="countdown-box">
-        <span class="countdown-num" id="cd-mins">00</span>
-        <span class="countdown-label">MINUTOS</span>
-      </div>
-      <span class="countdown-sep">:</span>
-      <div class="countdown-box">
-        <span class="countdown-num" id="cd-secs">00</span>
-        <span class="countdown-label">SEGUNDOS</span>
-      </div>
-    </div>
-
-    <a href="https://chat.whatsapp.com/BRit7gJVkdw4RIljwb12ak" target="_blank" class="countdown-btn">
-      <img src="whatsapp.png" class="whatsappicone-sm" alt=""> GARANTIR MINHA VAGA NO LOTE VIP
-    </a>
-  </div>
-  </div>
   </section>
 
   <!-- MUD DIVIDER 4 -->
